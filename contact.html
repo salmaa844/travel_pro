@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+
+    <!-- fontwosome CSS -->
+    <link rel="stylesheet" href="vendor/fontwesome/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="loding bg-white position-fixed vh-100 w-100 d-flex justify-content-center align-items-center z-3">
+        <span class="loader"></span>
+    </div>
+    <div class="scroll-to-top opacity-0 invisible position-fixed d-flex justify-content-center align-items-center">
+        <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-4">
+                        <a class="nav-link px-0 active " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item me-4">
+                        <a class="nav-link px-0 " href="About.html">About Us</a>
+                    </li>
+                    <li class="nav-item me-4 ">
+                        <a class="nav-link px-0" href="gallery.html"> Gallary</a>
+                    </li>
+                    <li class="nav-item me-4 ">
+                        <a class="nav-link px-0" href="contact.html">Contacts</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+    </nav>
+    <!--end navbar-->
+    <section class="google_map_wrapper">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.3314112092553!2d-73.78457441490082!3d40.64462439767069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c26650d5404947%3A0xec4fb213489f11f0!2sJohn%20F.%20Kennedy%20International%20Airport!5e0!3m2!1sen!2s!4v1697137528628!5m2!1sen!2s"
+            width="100%" height="440" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <div>
+        <div class="container">
+            <div class="breadcrumbs1">
+                <a href="index.html">Home</a>
+                <span>/</span>Gallery
+            </div>
+        </div>
+    </div>
+    <!--start contact-->
+    <div class="contant" style="margin-top: -123px;">
+        <div class="container">
+            <div class="left-content">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <h3>CONTACT INFO</h3>
+                        <p>
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
+                            illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
+                            blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam
+                            liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim
+                            placerat facer possim assum
+                        </p>
+                        <br>
+                        <h5>ADDRESS</h5>
+                        <p>
+                            795 Fake Ave, Door 6<br>
+                            Wonderland, CA 94107, USA<br>
+                            <a href="#">info@yourdomain.com</a>
+                        </p>
+                        <h5>PHONE</h5>
+                        <p>
+                            +440 875369208<br>
+                            +440 353363114
+                        </p>
+                        <div class="social3_wrapper">
+                            <ul class="social3">
+                                <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-square-vimeo"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+
+                        <h3>CONTACT FORM</h3>
+
+                        <div id="note"></div>
+                        <div id="fields">
+                            <form id="ajax-contact-form" class="form-horizontal" action="javascript:alert('success!');">
+
+                                <div class="form-group">
+                                    <label for="inputName">Your Name</label>
+                                    <input type="text" class="form-control" id="inputName" name="name" value="Full Name"
+                                        onblur="if(this.value=='') this.value='Full Name'"
+                                        onfocus="if(this.value =='Full Name' ) this.value=''">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="inputEmail">Email</label>
+                                    <input type="text" class="form-control" id="inputEmail" name="email"
+                                        value="E-mail address" onblur="if(this.value=='') this.value='E-mail address'"
+                                        onfocus="if(this.value =='E-mail address' ) this.value=''">
+                                </div>
+
+
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <label for="inputMessage">Your Message</label>
+                                            <textarea class="form-control" rows="7" id="inputMessage" name="content"
+                                                onblur="if(this.value=='') this.value='Message'"
+                                                onfocus="if(this.value =='Message' ) this.value=''">Message</textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn-defaultt btn-cf-submit">send message</button>
+                            </form>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!--end happy-->
+
+    <div class="bot1_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="logo2_wrapper">
+                        <a class="logo2" href="index.html">
+                            <img class="img" src="assets/img/logo2.png" alt="" />
+                        </a>
+                    </div>
+                    <p>Nam liber tempor cum soluta nobis option congue nihil imperdiet doming id quod mazim. Lorem ipsum
+                        dolor sit amet,
+                        consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+                    </p>
+                    <p><a class="btn-default btn2" href="#"> Read More</a></p>
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="bot1_title">Travel Specialists</div>
+                    <ul class="ul1">
+                        <li><a href="#">First Class Flights</a></li>
+                        <li><a href="#">Accessible Travel</a></li>
+                        <li><a href="#">Amazing Cruises</a></li>
+                    </ul>
+                    <div class="social2_wrapper">
+                        <ul class="social2 clearfix">
+                            <li class="nav1"><a href="#"></a></li>
+                            <li class="nav2"><a href="#"></a></li>
+                            <li class="nav3"><a href="#"></a></li>
+                            <li class="nav4"><a href="#"></a></li>
+                            <li class="nav5"><a href="#"></a></li>
+                            <li class="nav6"><a href="#"></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="bot1_title">Our Twitter</div>
+                    <div class="twits1">
+                        <div class="twit1">
+                            <a href="#">@travel</a>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                            <div class="date">5 minutes ago</div>
+                        </div>
+                        <div class="twit1">
+                            <a href="#">@travel</a>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+                            <div class="date">5 minutes ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="bot1_title"> Newsletter</div>
+                    <div class="newsletter_block">
+                        <div class="txt1">
+                            Inspiration, ideas, news and your feedback.
+                        </div>
+                        <div class="newsletter-wrapper clearfix">
+                            <form class="newsletter">
+                                <input type="text" value="Email Address">
+                                <a class="btn-default btn3" href="#">SUBMIT</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="phone2">1-917-338-6831</div>
+                    <div class="support1">
+                        <a href="#">support@templates-support.com</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bot2_wrapper">
+        <div class="container">
+            <div class="left_side">
+                Copyright © 2023
+                <a target="_blank" href="#">
+                    <strong>Salma Ghafri</strong>
+                </a>
+                <span>|</span>
+                <a href="#">Privacy Policy</a>
+                <span>|</span>
+                <a href="#">About Us</a>
+                <span>|</span>
+                <a href="#">FAQ</a>
+                <span>|</span>
+                <a href="#">Contact Support</a>
+            </div>
+            <div class="right_side">
+                Designed by
+                <a target="_blank" href="#">
+                    <strong>Salma Ghafri</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="vendor/js/main.js"></script>
+</body>
+
+</html>
